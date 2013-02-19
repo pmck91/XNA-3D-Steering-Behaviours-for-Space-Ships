@@ -43,11 +43,11 @@ namespace Steering
             float range = 30.0f;
             timeShot += timeDelta;
             float fov = MathHelper.PiOver4;
-            // Can I see the leader?
+            // Can I see the cylonScout?
             Fighter leader = XNAGame.Instance().Leader;
             if ((leader.pos - Entity.pos).Length() > range)
             {
-                // Is the leader inside my FOV
+                // Is the cylonScout inside my FOV
                 AIFighter fighter = (AIFighter)Entity;
                 fighter.SwicthState(new IdleState(fighter));
             }

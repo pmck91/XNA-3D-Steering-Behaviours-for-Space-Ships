@@ -1,0 +1,1 @@
+Warning: None triangle mesh: pSphere1 (file: 'E:\Dropbox\Programming\XNA-3D-Steering-Behaviours-for-Space-Ships\Steering\Steering\SteeringContent\SkySphere\SphereHighPoly.fbx') [ (line 0)]

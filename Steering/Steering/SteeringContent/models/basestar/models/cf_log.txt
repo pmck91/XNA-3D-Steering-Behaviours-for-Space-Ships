@@ -1,0 +1,1 @@
+Warning: Invalid texture in material material0 (file: 'E:\Dropbox\3D models\new models from sketchup\basestar\models\Cylon Basestar.dae') [ (line 0)]

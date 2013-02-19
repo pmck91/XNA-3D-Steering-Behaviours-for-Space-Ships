@@ -103,7 +103,7 @@ namespace Steering
             int midY = GraphicsDeviceManager.DefaultBackBufferWidth / 2;
             Mouse.SetPosition(midX, midY);
             children.Add(camera);
-            Scenario.setUpBuckRogersDemo();
+            Scenario.setUpCylonchase();
             //Scenario.setUpWander();
 
             

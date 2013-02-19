@@ -63,7 +63,7 @@ namespace Steering
             XNAGame.Instance().Ground = ground;            
 
             Fighter fighter = new Fighter();
-            fighter.ModelName = "ship1";
+            fighter.ModelName = "models/ColonialFleet/Military/ViperMkII";
             fighter.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.arrive);
             fighter.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.obstacle_avoidance);
             fighter.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.wall_avoidance);
@@ -73,7 +73,7 @@ namespace Steering
             children.Add(fighter);
 
             Fighter fighter1 = new Fighter();
-            fighter1.ModelName = "ship2";
+            fighter1.ModelName = "models/ColonialFleet/Military/ViperMkII";
             fighter1.Target = fighter;
             fighter1.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.pursuit);
             fighter1.pos = new Vector3(-20, 20, -20);
@@ -128,17 +128,17 @@ namespace Steering
         }
         
 
-        public static void setUpBuckRogersDemo()
+        public static void setUpCylonchase()
         {
             List<Entity> children = XNAGame.Instance().Children;
-            Fighter leader = new Fighter();
-            leader.pos = new Vector3(10, 20, 20);            
-            leader.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.seek);
-            leader.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.obstacle_avoidance);
-            leader.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.wall_avoidance);
-            leader.targetPos = new Vector3(0, 100, -450);
-            children.Add(leader);
-            XNAGame.Instance().Leader = leader;
+            Fighter cylonScout = new Fighter("models/Cylon/CylonRaider");
+            cylonScout.pos = new Vector3(10, 20, 20);            
+            cylonScout.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.seek);
+            cylonScout.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.obstacle_avoidance);
+            cylonScout.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.wall_avoidance);
+            cylonScout.targetPos = new Vector3(0, 100, -450);
+            children.Add(cylonScout);
+            XNAGame.Instance().Leader = cylonScout;
 
             // Add some Obstacles
 
@@ -184,9 +184,9 @@ namespace Steering
                 {
                     float z = (i - 1) * +zOff;
                     Fighter fleet = new Fighter();
-                    fleet.Leader = leader;
+                    fleet.Leader = cylonScout;
                     fleet.offset = new Vector3((xOff * (-i / 2.0f)) + (j * xOff), 0, z);
-                    fleet.pos = leader.pos + fleet.offset;
+                    fleet.pos = cylonScout.pos + fleet.offset;
                     fleet.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.offset_pursuit);
                     fleet.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.wall_avoidance);
                     fleet.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.obstacle_avoidance);
@@ -195,7 +195,7 @@ namespace Steering
             }
 
             Fighter camFighter = new Fighter();
-            camFighter.Leader = leader;
+            camFighter.Leader = cylonScout;
             camFighter.pos = new Vector3(0, 15, fleetSize * zOff);
             camFighter.offset = new Vector3(0, 5, fleetSize * zOff);
             camFighter.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.offset_pursuit);

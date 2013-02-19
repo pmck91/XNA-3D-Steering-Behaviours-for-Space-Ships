@@ -47,11 +47,11 @@ namespace Steering
         public override void Update(GameTime gameTime)
         {
             float range = 30.0f;           
-            // Can I see the leader?
+            // Can I see the cylonScout?
             Fighter leader = XNAGame.Instance().Leader;
             if ((leader.pos - Entity.pos).Length() < range)
             {
-                // Is the leader inside my FOV
+                // Is the cylonScout inside my FOV
                 AIFighter fighter = (AIFighter)Entity;
                 fighter.SwicthState(new AttackingState(fighter));
             }

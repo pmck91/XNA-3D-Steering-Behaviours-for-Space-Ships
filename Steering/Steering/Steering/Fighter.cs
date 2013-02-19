@@ -96,7 +96,21 @@ namespace Steering
             steeringBehaviours = new SteeringBehaviours(this);
             drawAxis = false;
             Solid = true;
-            modelName = "fighter";
+            modelName = "models/ColonialFleet/Military/ViperMkII";
+        }
+
+        public Fighter(String modelName)
+        {
+            worldTransform = Matrix.Identity;
+            pos = new Vector3(0, 10, 0);
+            look = new Vector3(0, 0, -1);
+            right = new Vector3(1, 0, 0);
+            up = new Vector3(0, 1, 0);
+            globalUp = new Vector3(0, 1, 0);
+            steeringBehaviours = new SteeringBehaviours(this);
+            drawAxis = false;
+            Solid = true;
+            this.modelName = modelName;
         }
 
         public override void LoadContent()
