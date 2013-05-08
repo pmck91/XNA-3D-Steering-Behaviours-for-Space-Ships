@@ -73,11 +73,16 @@ namespace Steering
             children.Add(fighter);
 
             Fighter fighter1 = new Fighter();
-            fighter1.ModelName = "models/ColonialFleet/Military/ViperMkII";
+            fighter1.ModelName = "models/Cylon/CylonRaider";
             fighter1.Target = fighter;
             fighter1.SteeringBehaviours.turnOn(SteeringBehaviours.behaviour_type.pursuit);
             fighter1.pos = new Vector3(-20, 20, -20);
             children.Add(fighter1);                        
+        }
+
+        public static void setUpOffSetPersuit()
+        {
+
         }
 
         public static void setUpWander()

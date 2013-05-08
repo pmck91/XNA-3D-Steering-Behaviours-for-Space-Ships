@@ -17,6 +17,21 @@ Content\SkySphere\SphereHighPoly.xnb
 Content\Shuttle.xnb
 Content\Ship1.xnb
 Content\ship2.xnb
+Content\Models\Cylon\baseStar.xnb
+Content\Models\ColonialFleet\Military\BattleStarPegasus.xnb
+Content\Models\ColonialFleet\Military\BattleStarGalactica.xnb
+Content\Models\Cylon\CylonHeavyRaider.xnb
+Content\Models\Cylon\CylonRaider.xnb
+Content\Models\ColonialFleet\Military\ViperMkII.xnb
+Content\Models\ColonialFleet\Civ\Astral Queen.xnb
+Content\Models\ColonialFleet\Civ\Colonial Movers Freighter.xnb
+Content\Models\ColonialFleet\Civ\Colonial ONE.xnb
+Content\Models\ColonialFleet\Civ\Geminon Freighter.xnb
+Content\Models\ColonialFleet\Civ\Geminon Transport.xnb
+Content\Models\ColonialFleet\Civ\Pylon Vessel.xnb
+Content\Models\ColonialFleet\Civ\Refinery Ship.xnb
+Content\Models\ColonialFleet\Civ\Space Park.xnb
+Content\Models\ColonialFleet\Civ\Tube Ship.xnb
 Content\Verdana.xnb
 Content\138.xnb
 Content\SkySphere.xnb
@@ -29,34 +44,19 @@ Content\Wing1_0.xnb
 Content\EA_Fury_Tiney_Pa1_0.xnb
 Content\mainePane1_0.xnb
 Content\Metal_Corrogated_Rust_0.xnb
-Content\Models\Cylon\baseStar.xnb
-Content\Models\ColonialFleet\Military\BattleStarPegasus.xnb
-Content\Models\ColonialFleet\Military\BattleStarGalactica.xnb
-Content\Models\Cylon\CylonHeavyRaider.xnb
-Content\Models\ColonialFleet\Military\ViperMkII.xnb
-Content\Models\ColonialFleet\Civ\Astral Queen.xnb
-Content\Models\ColonialFleet\Civ\Colonial Movers Freighter.xnb
-Content\Models\ColonialFleet\Civ\Colonial ONE.xnb
-Content\Models\ColonialFleet\Civ\Geminon Freighter.xnb
-Content\Models\ColonialFleet\Civ\Geminon Transport.xnb
-Content\Models\ColonialFleet\Civ\Pylon Vessel.xnb
-Content\Models\ColonialFleet\Civ\Refinery Ship.xnb
-Content\Models\ColonialFleet\Civ\Space Park.xnb
-Content\Models\ColonialFleet\Civ\Tube Ship.xnb
-Content\FBX\2F673206\baseStar.fbm\texture0_0.xnb
-Content\FBX\DAF53CE2\BattleStarPegasus.fbm\texture0_0.xnb
-Content\FBX\54D73D83\BattleStarGalactica.fbm\texture0_0.xnb
-Content\FBX\D1C9356A\CylonHeavyRaider.fbm\texture0_0.xnb
-Content\FBX\C96C334D\CylonRaider.fbm\texture0_0.xnb
-Content\FBX\FE6A3984\ViperMkII.fbm\texture0_0.xnb
-Content\FBX\870E3850\Astral Queen.fbm\texture0_0.xnb
-Content\FBX\88A03D78\Colonial Movers Freighter.fbm\texture0_0.xnb
-Content\FBX\86DA383E\Colonial ONE.fbm\texture0_0.xnb
-Content\FBX\A7413A58\Geminon Freighter.fbm\texture0_0.xnb
-Content\FBX\A8DE3A85\Geminon Transport.fbm\texture0_0.xnb
-Content\FBX\8851386F\Pylon Vessel.fbm\texture0_0.xnb
-Content\FBX\C0A638C3\Refinery Ship.fbm\texture0_0.xnb
-Content\FBX\15503765\Space Park.fbm\texture0_0.xnb
-Content\FBX\DE1F370F\Tube Ship.fbm\texture0_0.xnb
-Content\Models\Cylon\CylonRaider.xnb
+Content\FBX\C25C370E\baseStar.fbm\texture0_0.xnb
+Content\FBX\F0C941EA\BattleStarPegasus.fbm\texture0_0.xnb
+Content\FBX\74BB428B\BattleStarGalactica.fbm\texture0_0.xnb
+Content\FBX\8D0D3A72\CylonHeavyRaider.fbm\texture0_0.xnb
+Content\FBX\6B883855\CylonRaider.fbm\texture0_0.xnb
+Content\FBX\EBFE3E8C\ViperMkII.fbm\texture0_0.xnb
+Content\FBX\6A923D58\Astral Queen.fbm\texture0_0.xnb
+Content\FBX\AD8C4280\Colonial Movers Freighter.fbm\texture0_0.xnb
+Content\FBX\6A5E3D46\Colonial ONE.fbm\texture0_0.xnb
+Content\FBX\A3ED3F60\Geminon Freighter.fbm\texture0_0.xnb
+Content\FBX\A58A3F8D\Geminon Transport.fbm\texture0_0.xnb
+Content\FBX\6BD53D77\Pylon Vessel.fbm\texture0_0.xnb
+Content\FBX\A9323DCB\Refinery Ship.fbm\texture0_0.xnb
+Content\FBX\EEB53C6D\Space Park.fbm\texture0_0.xnb
+Content\FBX\B28B3C17\Tube Ship.fbm\texture0_0.xnb
 Content\138.wma

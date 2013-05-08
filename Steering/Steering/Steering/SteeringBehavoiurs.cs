@@ -275,7 +275,6 @@ namespace Steering
         {
             Vector3 target = Vector3.Zero;
 
-            //target = offset + fighter.Leader.pos;
             target = Vector3.Transform(offset, fighter.Leader.worldTransform);
 
             float dist = (target - fighter.pos).Length();     
